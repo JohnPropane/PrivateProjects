@@ -10,7 +10,7 @@ def create_playlist(songs_list, playlist_date):
 
     api_service_name = "youtube"
     api_version = "v3"
-    client_secrets_file = "client_secret_327981699886-48a0f0534esq870a8811o62em5116alr.apps.googleusercontent.com.json"
+    client_secrets_file = #PATH TO CLIENT SECRET FILE
 
     with open("user_data.json", "r") as user_data:
         data = json.load(user_data)
